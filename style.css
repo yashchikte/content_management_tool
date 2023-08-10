@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial Rounded MT Bold', Times, serif, sans-serif;
+    text-align: center;
+    background-color: rgb(111, 186, 236);
+    border-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-color: black;
+    margin-top: 20px;
+}
+
+.content-form,
+.content-list {
+    padding: 10px;
+    border: 1px solid #160101;
+    margin: 10px;
+    flex: 1;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+label,
+textarea,
+input {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #d1f5a6;
+    color: #130806;
+    border-color: #221268;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
